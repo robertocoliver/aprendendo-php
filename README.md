@@ -8,3 +8,4 @@ Repositório para meus estudos de PHP
 ## Livros 
 - learning php: David Sklar
 - Programming php: Kevin totoe
+- PHP Quick Scripting Reference: Mikael Olsson
