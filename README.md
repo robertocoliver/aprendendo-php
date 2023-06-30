@@ -65,5 +65,27 @@ Repositório para meus estudos de PHP
 - Fibers 
 
 ## Soluções que o PHP pode resolver ? 
-- Websites 
+- Websites
 - Servidores
+
+## Necessidades de um servidor 
+Sendo um servidor um ambiente para fornecer recursos e hospedagem, é necessário que tenha tecnologias como: 
+### Servidor 
+- Apache
+- Nginx 
+- Para as linguagens interpretadas, é necessário ter um interpretador ou ambiente de execução.
+
+## É necessário termos a combinação das tecnologias server-side e client-side, para meus estudos vou utilizar: 
+
+## Server-side
+  - Apache/nginx/ISS: Apache
+  - Banco de dados: Mysql
+  - Interpretador: PHP
+## Client-side
+  - Navegador: Google/Brave/Mozilla
+  - Editor(IDE): Vscode
+
+A tríade Apache, MySQL e o PHP é conhecida como soluções AMP. Como o PHP precisa ser executado em um servidor, existem diferentes soluções dependendo do sistema operacional. 
+Para servidores Linux, temos: Solução LAMP (Linux + Apache + MySQL + PHP). 
+Para servidores Windows, temos: Solução WAMP (Windows + Apache + MySQL + PHP)
+
