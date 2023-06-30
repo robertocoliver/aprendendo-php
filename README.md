@@ -63,3 +63,7 @@ Repositório para meus estudos de PHP
 - Expressão match
 - Enumerations
 - Fibers 
+
+## Soluções que o PHP pode resolver ? 
+- Websites 
+- Servidores
