@@ -89,3 +89,15 @@ A tríade Apache, MySQL e o PHP é conhecida como soluções AMP. Como o PHP pre
 Para servidores Linux, temos: Solução LAMP (Linux + Apache + MySQL + PHP). 
 Para servidores Windows, temos: Solução WAMP (Windows + Apache + MySQL + PHP)
 
+## Instalando XAMPP
+
+Baixando XAMPP para linux nas versões recomendadas do site e dando permissão de execução:
+```bash
+  https://www.apachefriends.org/pt_br/index.html
+```
+![screenshot](https://github.com/robertocoliver/aprendendo-php/assets/102238044/5a9c3df5-7ffb-4bb4-86a1-7eeac7bfe0c6)
+
+Encontre o diretório onde o arquivo foi salvo e execute:
+```bash
+  ./xampp-linux-x64-8.2.4-0-installer.run
+```
