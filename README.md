@@ -101,3 +101,9 @@ Encontre o diretório onde o arquivo foi salvo e execute:
 ```bash
   ./xampp-linux-x64-8.2.4-0-installer.run
 ```
+![screenshot](https://github.com/robertocoliver/aprendendo-php/assets/102238044/3c793db5-a243-44cd-bcb8-d21cbe843356)
+
+Na seção "Manage Servers" do XAMPP, é possível gerenciar os servidores MySQL, ProFTPD e Apache. Ao digitar "localhost" ou "127.0.0.1" no navegador, é possível verificar se o servidor Apache está em execução.
+
+![screenshot](https://github.com/robertocoliver/aprendendo-php/assets/102238044/161ca69b-0f4e-4059-b408-da50a637537c)
+
