@@ -107,3 +107,22 @@ Na seção "Manage Servers" do XAMPP, é possível gerenciar os servidores MySQL
 
 ![screenshot](https://github.com/robertocoliver/aprendendo-php/assets/102238044/161ca69b-0f4e-4059-b408-da50a637537c)
 
+## Vantagens do XAMPP 
+O XAMPP automatiza o processo de instalação do Apache, MySQL e PHP, configurando-os automaticamente. Além disso, o XAMPP também instala e configura outras ferramentas essenciais, como o phpMyAdmin, para trabalhar em conjunto.
+
+## Configurações do VSCode
+
+Vscode: 
+- Salvamento Automático
+- Arquivo > Preferências > Configurações > Files: Auto Save, onWindowsChange
+- Arquivo > Preferências > Configurações > Editor: Font Size, 20
+
+Permissões: 
+Vamos dar permissão ao diretório raiz do servidor web local XAMPP/LAMPP, que é acessível através do servidor web e pode ser executado no navegador.
+Permissão de criação e exclusão: 
+```bash
+  chmod u+w /caminho/opt/lampp/htdocs
+```
+Extensões: 
+- PHP Intelephense: Oferece recursos de autocompletar, sugestões de código, análise estática e navegação inteligente para o PHP. 
+- PHP awesome snippets: Agilizar o desenvolvimento, fornecendo blocos de código comumente usados.
