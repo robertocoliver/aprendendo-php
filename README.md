@@ -190,3 +190,22 @@ O PHP é uma linguagem interpretada em tempo real, isso significa que o servidor
  ?> 
 ```
 ![screenshot](https://github.com/robertocoliver/aprendendo-php/assets/102238044/d9103806-c32e-4849-8105-bea4b5f40db1)
+
+## Regras para nomes identificadores 
+- Variáveis sempre começam com o $
+- O segundo caractere depois do $ pode ser uma letra ou o símbolo _
+- O terceiro caractere aceita [a-z], [A-Z], [0-9], e [_]
+- Aceita os caractere da tabela ASCII a partir do 128
+- Não pode dar espaço em uma variável 
+- Aceita caracteres acentuados como á, õ, ç
+- A linguagem é case sensitive em relação aos nomes
+- Nomes especiais como $this não podem ser usados
+
+## Recomendações para dar nomes 
+- Nomes fáceis para identificação
+- Evitar nomes muito curtos ou muito longos
+- Padrão de nomeação em todo projeto
+- Para variáveis, preferências a letras minúsculas
+- Para constantes, preferências a letras maiúsculas
+- camalCase para métodos e atributos 
+- SNAKE_CASE para constantes 
