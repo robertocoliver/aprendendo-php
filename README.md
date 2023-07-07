@@ -177,6 +177,7 @@ Pode-se utilizar a short open tag para simplificar a tag quando há apenas um co
 
 - Liberdade: O funcionamento do interpretador PHP (escrito em C) é de código aberto e está disponível para a comunidade entender como funciona e o que está acontecendo por baixo dos panos. Mesmo que um programador PHP não possua conhecimento técnico em C para poder explorar o funcionamento do interpretador, pode-se contar com outras pessoas para fazê-lo.
 
+- Multiplataforma: O PHP é funcia em Windows, Linux, Mac OS, e diversas distribuições UNIX. Além disso, para trocar o sistema operacional onde um servidor web PHP está funcionando, não é preciso fazer nenhuma alteração no código. Soma-se isso ao suporte com Nginx, ISS ( Microsoft Internet Information Server ), ou qualquer outro servidor que tenha suporte ao padrão CGI.
 
 ### Funcionamento do Pré-Processamento 
 O PHP é uma linguagem interpretada em tempo real, isso significa que o servidor web envia ao interpretador um arquivo PHP, o interpretador por sua vez análisa, executa e gera conteúdo HTML.  O exemplo abaixo, o conteúdo HTML é gerado em tempo real e enviado para o navegador.
