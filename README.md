@@ -126,3 +126,48 @@ Permissão de criação e exclusão:
 Extensões: 
 - PHP Intelephense: Oferece recursos de autocompletar, sugestões de código, análise estática e navegação inteligente para o PHP. 
 - PHP awesome snippets: Agilizar o desenvolvimento, fornecendo blocos de código comumente usados.
+
+## Aprendendo melhor o PHP
+
+Delimitando script PHP:
+
+```bash
+  <script language="php">
+   $teste = "teste";
+   echo "<p>Isso é um teste $teste</p>" 
+  </script>
+```
+![screenshot](https://github.com/robertocoliver/aprendendo-php/assets/102238044/729502be-e42d-4e3c-b848-349658f3b257)
+
+
+Delimitando ASP tag PHP:
+
+```bash
+  <%  %>
+```
+Durante algum tempo, o php tinha a linguagem ASP como concorrente, e por muito tempo, o php incrementou as ASP tag para delimitar código php.
+
+Delimitando short open tag PHP:
+
+```bash
+ <?
+  echo "Hola Mundo"
+ ?>
+```
+
+Delimitando Super tag:
+
+```bash
+ <?php
+  echo "Hola Mundo";
+ ?>
+```
+
+Delimitando short tag:
+
+```bash
+ <?=
+  echo "Hola Mundo"
+ ?>
+```
+Pode-se utilizar a short open tag para simplificar a tag quando há apenas um comando dentro da tag. O ';' depois do comando echo também pode ser desconsiderado.
