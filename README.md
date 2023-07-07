@@ -171,3 +171,15 @@ Delimitando short tag:
  ?>
 ```
 Pode-se utilizar a short open tag para simplificar a tag quando há apenas um comando dentro da tag. O ';' depois do comando echo também pode ser desconsiderado.
+
+### Funcionamento do Pré-Processamento 
+O PHP é uma linguagem interpretada em tempo real, isso significa que o servidor web envia ao interpretador um arquivo PHP, o interpretador por sua vez análisa, executa e gera conteúdo HTML.  O exemplo abaixo, o conteúdo HTML é gerado em tempo real e enviado para o navegador.
+
+```bash
+ <?php
+  date_default_timezone_set("America/Sao_Paulo");
+  echo "Hoje é dia " .date("d/M/Y");
+  echo " e a hora atual é " .date("G:i:s T");
+ ?> 
+```
+![screenshot](https://github.com/robertocoliver/aprendendo-php/assets/102238044/d9103806-c32e-4849-8105-bea4b5f40db1)
