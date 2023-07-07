@@ -172,6 +172,12 @@ Delimitando short tag:
 ```
 Pode-se utilizar a short open tag para simplificar a tag quando há apenas um comando dentro da tag. O ';' depois do comando echo também pode ser desconsiderado.
 
+## O que há de bom no PHP ? 
+- Gratuito: O interpretador PHP não possui taxa de licenciamento, manutenção ou suporte. Não importa se o servidor web é executado em um computador pessoal ou uma sala empresarial cheia de servidores.
+
+- Liberdade: O funcionamento do interpretador PHP (escrito em C) é de código aberto e está disponível para a comunidade entender como funciona e o que está acontecendo por baixo dos panos. Mesmo que um programador PHP não possua conhecimento técnico em C para poder explorar o funcionamento do interpretador, pode-se contar com outras pessoas para fazê-lo.
+
+
 ### Funcionamento do Pré-Processamento 
 O PHP é uma linguagem interpretada em tempo real, isso significa que o servidor web envia ao interpretador um arquivo PHP, o interpretador por sua vez análisa, executa e gera conteúdo HTML.  O exemplo abaixo, o conteúdo HTML é gerado em tempo real e enviado para o navegador.
 
