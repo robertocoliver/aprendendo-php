@@ -208,4 +208,28 @@ O PHP é uma linguagem interpretada em tempo real, isso significa que o servidor
 - Para variáveis, preferências a letras minúsculas
 - Para constantes, preferências a letras maiúsculas
 - camalCase para métodos e atributos 
-- SNAKE_CASE para constantes 
+- SNAKE_CASE para constantes
+
+## Tipos primitivos do PHP 
+- 0x = hexadecimal
+- 0b = binário
+- 0 = octal 
+- 0x1A: "0x" indica que um valor em formato hexadecimal. O PHP reconhece e interpreta esse valor como um número inteiro.
+- 3e2: 3.10² = 300. Operações de potenciação para o php o resultado será do tipo de dados float.
+- 010: 8. O prefixo "0" em um número inteiro no PHP indica octal. ( Conhecer as bases hexadecimais )
+
+## Categorias de tipos primitivos 
+
+Compostos:
+- array
+- object
+
+Especiais:
+- null
+- resource
+- callabe
+- mixed 
+
+## Variáveis booleanas 
+- true: 1
+- false: vazio
