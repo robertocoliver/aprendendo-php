@@ -27,3 +27,13 @@ Concatenação de constantes
 ```bash
   A interpolação em constantes em PHP não existe. Para isso, é preciso substituí-las ou concatená-las.
 ```
+
+
+## Sequência de scape para Double quoted
+- \": Escapa uma aspa dupla dentro de uma string.
+- \$: Escapa o caractere de cifrão ($), evitando sua interpretação como uma variável.
+- \\: Escapa uma barra invertida ().
+- \n: Representa uma nova linha.
+- \r: Representa um retorno de carro.
+- \t: Representa uma tabulação horizontal.
+- \u{}: Codepoint Unicode
