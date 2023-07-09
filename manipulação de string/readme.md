@@ -7,9 +7,18 @@
 Ao utilizar aspas duplas, as strings se tornam dinâmicas, pois as variáveis e caracteres especiais são interpretados e incorporados. A essa técnica, damos o nome de interpolação.
 ### Single quoted: aspas simples
 
-### Heredoc
+### Strings Heredoc
+- Características de aspas duplas, usando textos em múltiplas linhas.
+- inserir grandes blocos de texto em seu código.
 
-### Nowdoc
+![screenshot](https://github.com/robertocoliver/aprendendo-php/assets/102238044/625af62b-b7ab-48f5-9802-7c70779ec98a)
+
+
+### Strings do tipo Nowdoc
+- Não há interpolação ( interpretação ) de variáveis na string.
+
+
+![screenshot](https://github.com/robertocoliver/aprendendo-php/assets/102238044/abc7a780-0610-4d37-be88-6c8df2c2f1e7)
 
 
 
