@@ -11,10 +11,12 @@
    </header>
    <main>
         <?php
-            $nome = $_GET["nome"];
-            $sobrenome = $_POST["sobrenome"];
+            // ?? Operador de coalescência nula (null coalescing operator)
+            $nome = $_GET["nome"] ?? "sem nome";
+            $sobrenome = $_POST["sobrenome"] ?? "sem sobrenome";
             echo "<p>Prazer em te conhecer, $nome $sobrenome. Este é o meu site."; 
         ?>
-   </main>
+    <p><a href="javascript:history.go(-1)">Voltar para a página anterior</a></p>
+</main>
 </body>
 </html>
