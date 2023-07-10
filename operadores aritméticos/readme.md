@@ -5,6 +5,7 @@
 -  (*) Multiplicação
 -  (/) Divisão real 
 -  (%) Módulo ( retorna o resto da divisão )
+-  (**) Potência ( Operador funcional a partir da versão 5.6 do PHP ) 
 -  (.) Concatenação ( não é um operador ) 
 
 No PHP, a adição de dois números, mesmo quando eles são representados como strings, é tratada como uma operação de adição numérica. Isso ocorre porque o PHP faz uma conversão automática. Para o PHP,  a concatenação acontece apenas quando é utilizada o operador "."
@@ -35,3 +36,14 @@ Nas versões do PHP antigo, era possível acontecer a seguinte situação:
 ```
 Os números dentro das aspas eram convertidos e somados.
 Resposta: int(22) 
+
+## Ordem de maior precedência 
+
+Todas as linguagens de programação seguem a ordem de precedência da matemática. Logo, as operações tem a ordem de precedência do maior para o menor:
+
+- ( ** ) 
+- ( *, /, % ) 
+- ( + - )
+
+Mudando a Precedência: 
+Para alterar a ordem de precedência, usa-se o modificador '()'. Ao utilizar parênteses em uma operação, ela se torna uma operação de maior precedência.
