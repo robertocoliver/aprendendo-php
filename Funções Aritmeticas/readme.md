@@ -58,7 +58,12 @@ Essa função recebe 3 parâmetros, veja:
 ?>
 ```
 
-
-
-
-
+## Função matemática para calcular a hypotenusa 
+```bash
+<?php
+ $x = 3;
+ $y = 4;
+ $result = hypot($x, $y);
+ echo $result; // output = 5 
+?>
+```
