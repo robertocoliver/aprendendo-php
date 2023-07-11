@@ -8,6 +8,16 @@
 -  (**) Potência ( Operador funcional a partir da versão 5.6 do PHP ) 
 -  (.) Concatenação ( não é um operador ) 
 
+Uma observação interessante, é que o PHP usa o / para divisões reais. Para divisões inteiras, é necessário uma função chamada intdiv()
+```bash 
+<?php
+ $x = 5;
+ $y = 2;
+ $result = intdiv($x, $y);
+ echo $result;
+?>
+```
+
 No PHP, a adição de dois números, mesmo quando eles são representados como strings, é tratada como uma operação de adição numérica. Isso ocorre porque o PHP faz uma conversão automática. Para o PHP,  a concatenação acontece apenas quando é utilizada o operador "."
 ```bash
 <?php
