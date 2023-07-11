@@ -67,3 +67,50 @@ Essa função recebe 3 parâmetros, veja:
  echo $result; // output = 5 
 ?>
 ```
+## min(), max()  Obter o número min e max
+#### Mínimo
+```bash
+<?php 
+ $m = min(2,3,4,5,6,7,8,9,1);
+ echo $m; // output 1 
+?>
+```
+#### Máximo
+```bash
+<?php 
+ $m = max(2,3,4,5,6,7,8,9,1);
+ echo $m; // output 9 
+?>
+```
+
+## Função para calcular potência
+```bash
+<?php
+ $m = pow(3,3);
+ echo $m; // output 27 
+?>
+```
+
+## Obtendo o valor de PI pela função e constante respectivamente
+#### Função pi()
+```bash
+<?php
+ $pi = pi();
+ echo $pi; // output 3.14...
+?>
+```
+#### Constante pi 
+```bash
+<?php
+ $pi = M_PI;
+ echo $pi; // output 3.14...
+?>
+```
+
+## Função sqrt() para obter raiz de um número 
+```bash
+<?php
+ $raiz = sqrt(25) ;
+ echo $raiz;
+?>
+```
