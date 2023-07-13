@@ -13,7 +13,8 @@
         <?php
             $real = $_POST['real'];
             $dolar = $real / 4.83;
-            echo "<p>O valor da sua carteira em real é: $real<br> Em dolar é: $dolar</p>";
+            //echo "<p>O valor da sua carteira em real é: ".$real."<br> Em dolar é: $dolar</p>";
+            echo " Seus R\$ " . number_format($real, 2, ",", "."). " equivalem a US\$ " . number_format($dolar,2, ",", ".");       
         ?>
     <p><a href="javascript:history.go(-1)">Converter outro valor</a></p>
 </main>
